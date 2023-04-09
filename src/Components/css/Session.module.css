@@ -1,0 +1,30 @@
+.card{
+    width: 26rem;
+    cursor: pointer;
+    border-bottom-width: 4px;
+    height: 11rem;
+    text-align: center;
+    padding-left: 1rem/* 16px */;
+    padding-right: 1rem/* 16px */;
+    align-self: flex-end;
+}
+
+.card_active{
+    height: 26rem/* 384px */;
+    transition-duration: 0.8s;
+}
+
+.logo{
+    font-size: 3rem/* 48px */;
+    line-height: 1;
+    margin-top: 2.5rem/* 8px */;
+    max-width: 5rem/* 80px */;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 5rem/* 80px */;
+    min-height: 5rem/* 80px */;
+    border-radius: 9999px;
+    display: grid;
+    place-items: center;
+
+}
