@@ -6,15 +6,19 @@ import App from './App'
 import Hero from './Components/components/Hero';
 import About from './Components/components/About';
 import Feature from './Components/components/Feature';
-import Session from './Components/components/Session'
+
+import Opensource from './Components/components/Opensource';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <App />
+   <Hero />
    
-    <Hero />
+     <Feature />
    <About />
-   <Feature />
-   <Session />
+
+   <Opensource />
+   
+
   </React.StrictMode>,
 )

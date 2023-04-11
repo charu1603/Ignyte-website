@@ -4,6 +4,7 @@ import design from '../images/design.png';
 import design3 from '../images/Feature3.png';
 import design2 from '../images/Feature2.png';
 import design1 from '../images/Feature1.png';
+import os from '../images/os.png';
 
 export default function About() {
   return (
@@ -11,9 +12,11 @@ export default function About() {
       
       <div className="w-3/10 sm:w-1/2 lg:w-2/5 grid grid-cols-2">
      
-      <div className='bg-teal-300 h-52 w-full'><img className=" h-full w-full  " src={pic} ></img></div>
-       <div className='bg-teal-200 h-52 w-full'><img className="  h-full w-full" src={design3} ></img></div>
-       <div className='bg-[#5FD28D] h-54 w-full'><img className="  h-full w-full hover:rotate-90" src={design2} ></img></div>
+      <div className='bg-teal-300 h-54 w-full'><img className=" h-full w-full  " src={pic} ></img></div>
+       <div className='bg-teal-200 h-54 w-full'><img className="  h-full w-full" src={design3} ></img></div>
+       <div className='bg-[#10b981] h-54 w-full flex justify-center items-center'>
+         <div className='bg-[#e7e5e4] h-48 w-48 rounded-full flex items-center justify-center'> 
+        </div></div>
        <div className='bg-teal-300 h-54 w-full'><img className=" h-full w-full  " src={pic} ></img></div>
        <div className=" bg-[#fcd34d] h-54 w-full ">
          
@@ -42,7 +45,8 @@ export default function About() {
         </p>
         <button className='bg-[#1e40af] text-[#E7E5E5] w-[200px] rounded-lg font-medium my-6 mx-auto md:mx-0 py-3 '>Learn more about ignyte</button>
       </div>
-    </div>
+   </div>
+  
 
 
 

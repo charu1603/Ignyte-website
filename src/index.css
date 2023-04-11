@@ -2,3 +2,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.snippet{
+ 
+   
+        background-color: red;
+        position: relative;
+        animation-name: example;
+        animation-duration: 6s;
+      }
+      
+      @keyframes example {
+        0%   {background-color:red;  top:0px;}
+        
+        100% {background-color:red;  top:500px;}
+      }
