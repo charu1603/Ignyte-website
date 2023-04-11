@@ -24,12 +24,12 @@ export default function Session() {
       <div className="SessionSection bg-[#49A16C] overflow-x-hidden py-12">
         <br></br>
         <div className="heading h-12 w-max mx-auto">
-          <h1 className="text-5xl border-b-4 pb-2 px-2 text-white font-extrabold  flex justify-center items-center">
+          <h1 className="text-5xl border-b-4 border-[#1e1b4b] pb-2 px-2 text-[#1e1b4b] font-extrabold  flex justify-center items-center">
             Sessions
           </h1>
         </div>
 
-        <div className="h-screen flex mt-8 justify-center text-white py-5">
+        <div className="flex mt-8 justify-center text-white py-5">
           <div className="max-w-5xl md:max-w-full md:ml-12 mx-auto">
 
             <Swiper  spaceBetween={50} slidesPerView={3} 
@@ -49,9 +49,9 @@ export default function Session() {
               <div className="h-96 flex ">
                 <div className={`${styles.card} ${ active === i && styles.card_active}  bg-gradient-to-t from-white/20; from-white/20`}>
                   <div className={styles.logo}>
-                    <FontAwesomeIcon icon={faPeopleGroup}></FontAwesomeIcon>
+                    <FontAwesomeIcon icon={faPeopleGroup}></FontAwesomeIcon> 
                   </div>
-                  <h2 className="text-3xl mt-2 font-semibold">{session.name}</h2> 
+                  <h2 className="text-3xl mt-2 font-semibold text-[#1e1b4b]">{session.name}</h2> 
                   <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora dolor porro voluptatum facere repudiandae corrupti illum ea Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis officia dolorum, nemo dicta totam quibusdam!</p>
                 </div>
                 

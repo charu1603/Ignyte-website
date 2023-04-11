@@ -24,15 +24,15 @@ useEffect(() => {
    }})
 
    const el1 = image1.current;
-   gsap.fromTo(el1 , {delay:2, opacity:0, translateX:"-10px"} , {delay:2, opacity:1,translateX:"5px" , duration: 3 , scrollTrigger:{
+   gsap.fromTo(el1 , {delay:2, translateX:"-142px", opacity:0} , {delay:2, translateX:"0.75px" , opacity:1 , duration: 3 ,scrollTrigger:{
     trigger: el1,
    }})
    const el2 = image2.current;
-   gsap.fromTo(el2 , {delay:2, opacity:0, translateX:"-10px"} , {delay:2, opacity:1,translateX:"5px" , duration: 3 , scrollTrigger:{
+   gsap.fromTo(el2 , {delay:2, translateX:"-142px", opacity:0} , {delay:2, translateX:"0.38px" , opacity:1 , duration: 3 ,scrollTrigger:{
     trigger: el2,
    }})
    const el3 = image3.current;
-   gsap.fromTo(el3 , {delay:2, opacity:0, translateX:"-10px"} , {delay:2, opacity:1,translateX:"5px", duration: 3, scrollTrigger:{
+   gsap.fromTo(el3 , {delay:2, translateX:"-142px", opacity:0} , {delay:2, translateX:"0.55px" , opacity:1 , duration: 3 ,scrollTrigger:{
     trigger: el3,
    }})
    const el4 = content1.current;
@@ -61,9 +61,9 @@ useEffect(() => {
             <div>
                 <div className='flex'>
                     <div className='mb-4 md:mb-20 flex flex-col relative'>
-                      <img src={Feature1} alt=""  className='h-36  w-36'/>  
+                      <img src={Feature1} alt=""  className='h-36 w-36 z-20'/>  
                     </div>
-                    <div className='mt-5 h-28 w-28 '><img src="https://images.doclify.net/bayswater-web/d/2e83ffc1-f822-43f9-b91e-480307b166bc.png?enlarge=0&format=webp&w=600" alt="" className='rounded-full hover:scale-1 hover:rounded-none' ref={image1}/></div>
+                    <div><img src="https://images.doclify.net/bayswater-web/d/2e83ffc1-f822-43f9-b91e-480307b166bc.png?enlarge=0&format=webp&w=600" alt="" className='rounded-full hover:rounded-none h-36 w-36 z-0 hover:transition-all hover:duration-800  hover:ease-in-out ' ref={image1}/></div>
                 </div>
 
                 
@@ -77,9 +77,9 @@ useEffect(() => {
             <div>
                 <div className='flex'>
                     <div className='mb-4 md:mb-20 flex flex-col relative'>
-                      <img src={Feature2} alt=""  className='h-36  w-36'/>  
+                      <img src={Feature2} alt=""  className='h-36  w-36 z-20'/>  
                     </div>
-                    <div className='  mt-5 h-28 w-28'><img src="https://images.doclify.net/bayswater-web/d/01ff1056-ce09-48f9-a9fd-29a6b0a2ac59.png?enlarge=0&format=webp&w=600" alt="" className='rounded-full hover:scale-1 hover:rounded-none' ref={image2}/></div>
+                    <div><img src="https://images.doclify.net/bayswater-web/d/01ff1056-ce09-48f9-a9fd-29a6b0a2ac59.png?enlarge=0&format=webp&w=600" alt="" className='rounded-full hover:rounded-none h-36 w-36 z-0 hover:transition-all  hover:duration-800  hover:ease-in-out ' ref={image2}/></div>
                 </div>
 
                 
@@ -93,9 +93,9 @@ useEffect(() => {
             <div>
                 <div className='flex'>
                     <div className='mb-4 md:mb-20 flex flex-col relative'>
-                      <img src={Feature3} alt=""  className='h-36  w-36'/>  
+                      <img src={Feature3} alt=""  className='h-36  w-36 z-20'/>  
                     </div>
-                    <div className='mt-5 h-28 w-28 '><img src="https://images.doclify.net/bayswater-web/d/ed340f85-bb16-495e-adc8-2aed7a938806.png?enlarge=0&format=webp&w=600" alt="" className='rounded-full hover:scale-1 hover:rounded-none' ref={image3}/></div>
+                    <div><img src="https://images.doclify.net/bayswater-web/d/ed340f85-bb16-495e-adc8-2aed7a938806.png?enlarge=0&format=webp&w=600" alt="" className='rounded-full hover:rounded-none h-36 w-36 z-0 hover:transition-all hover:duration-800  hover:ease-in-out ' ref={image3}/></div>
                 </div>
 
                 
