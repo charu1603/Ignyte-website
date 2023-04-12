@@ -4,15 +4,15 @@ import snippet from '../images/snippet.jpg';
 
 export default function Opensource() {
   return (
-    <><div className='mx-auto mt-20 mb-24 mr-0 flex flex-col sm:flex-row'>
+    <><div className="mx-auto mt-20 mb-24 mr-0 flex flex-col sm:flex-row "id='Open-source'>
 
           {/* Content */}
-          <div className="w-full md:w-4/6 px-4 py-8 order-2 md:order-2 ml-16 md:ml-32 mt-8  ">
+          <div className=" md:w-4/6 px-4 py-8 order-2 md:order-2  mt-8 sm:ml-0  md:ml-16 ">
 
 
-              <h1 className="text-5xl font-bold lg:text-7xl md:text-6xl  mb-10 text-[#1e1b4b]  ">Dive deep into  the world of open-source  </h1>
+              <h1 className="text-5xl font-bold lg:text-7xl md:text-5xl sm:text-4xl mb-10 text-[#1e1b4b]  ">Dive deep into  the world of  open-source  </h1>
 
-              <p className="text-lg mb-4 ">
+              <p className="text-lg mb-4  "> 
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget massa ut libero interdum ultrices.
                   Donec ut tellus vel purus faucibus fermentum id eget mi.Lorem ipsum dolor sit amet, consectetur adipiscing elit.m dolor sit amet, consectetur adipiscing elit.
               </p>

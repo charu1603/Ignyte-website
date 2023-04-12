@@ -53,7 +53,7 @@ useEffect(() => {
 
   return (
     <>
-    <div className=' mx-auto mt-20 mb-24'>
+    <div className=' mx-auto mt-20 mb-24' id='Feature'>
         <h1 className='heading text-4xl sm:text-6xl font-bold text-[#020842] ml-16 md:ml-32 mt-8' ref={heading}>Why Ignyte?</h1>
 
         <div className='grid gap-10 md:gap-12 lg:gap-20 grid-cols-1 md:grid-cols-3 mx-auto mt-10 md:mt-20 lg:ml-32 lg:mr-32 ml-12 mr-12'>

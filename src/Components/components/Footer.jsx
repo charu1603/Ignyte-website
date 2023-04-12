@@ -4,7 +4,7 @@ import { FaLinkedinIn , FaInstagram , FaYoutube , FaFacebook} from "react-icons/
 export default function Footer() {
   return (
     <>
-      <div className=' bg-slate-800 text-white mt-20 '>
+      <div className=' bg-slate-800 text-white mt-20 '>
 
 <div className='grid grid-cols-1 sm:grid-cols-3 gap-12 ml-20 mr-20'>
     <div className='md:mb-20'>
@@ -36,7 +36,7 @@ export default function Footer() {
 </div>
 
 <div className='lg:h-[13rem] md:h-[9.3rem] h-[7.5rem] sm:h-40'>
-    <h1 className='flex justify-center text-slate-700 mt-4 text-[2.2rem] font-bold sm:text-[3.8rem] md:mt-0 md:text-[4.6rem] lg:text-[8rem] sm:font-extrabold'>IGNYTECOMMUNITY</h1>
+    <h1 className='flex justify-center text-slate-700 mt-4 text-[2.2rem] font-bold sm:text-[3.8rem] md:mt-0 md:text-[4.2rem] lg:text-[7.5rem] sm:font-extrabold'>IGNYTECOMMUNITY</h1>
     
 </div>
 
