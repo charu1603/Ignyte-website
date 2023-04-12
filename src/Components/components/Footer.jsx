@@ -7,11 +7,11 @@ export default function Footer() {
       <div className=' bg-slate-800 text-white mt-20 '>
 
 <div className='grid grid-cols-1 sm:grid-cols-3 gap-12 ml-20 mr-20'>
-    <div className='md:mb-20'>
-       <p className='mt-20 mb-12'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur exercitationem, obcaecati reiciendis sit dolorem.</p>
-       <div className='flex '>
-       <a href='https://instagram.com/theasperteam?igshid=YmMyMTA2M2Y=' target='blank' className='bg-white text-black p-2 w-fit rounded-full mr-2'><FaInstagram/></a>
-       <a href='https://www.linkedin.com/company/theasperteam/' target='blank' className='bg-white text-black p-2 w-fit rounded-full mr-2'><FaLinkedinIn/></a>
+    <div className='md:mb-20 '>
+       <p className='mt-20 mb-12 text-center'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique tenetur exercitationem, obcaecati reiciendis sit dolorem.</p>
+       <div className='flex justify-center'>
+       <a href='https://instagram.com/theasperteam?igshid=YmMyMTA2M2Y=' target='blank' className=' text-center bg-white text-black p-2 w-fit rounded-full mr-2'><FaInstagram/></a>
+       <a href='https://www.linkedin.com/company/theasperteam/' target='blank' className='bg-white  text-center text-black p-2 w-fit rounded-full mr-2'><FaLinkedinIn/></a>
        </div>
     </div>
 

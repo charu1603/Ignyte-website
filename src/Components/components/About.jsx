@@ -31,7 +31,7 @@ export default function About() {
      
       <div className="w-7/10 sm:w-1/2 lg:w-3/5 pl-10 pr-10 sm:pl-20  flex flex-col text-white ">
       
-        <h1 className="text-5xl font-bold lg:text-7xl md:text-6xl  mb-10 mt-10"> Journey </h1>
+        <h1 className="text-5xl font-bold lg:text-7xl md:text-6xl  mb-10 mt-10 "> Journey </h1>
         
         <p className="text-xm leading-relaxed mb-5 text-[#E7E5E5] ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget

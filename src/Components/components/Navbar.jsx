@@ -22,7 +22,7 @@ export default function Navbar() {
         <GiHamburgerMenu/>
     </span>
     <div className='hidden md:flex items-center justify-end'>
-    <ul className='flex items-center justify-end  mr-12 text-lg font-semibold'>
+    <ul className='flex items-center justify-end  mr-12 text-lg'>
             <li className='ml-12'><a href="">Home</a></li>
             <li className='ml-12'><a href="#About">About</a></li>
             <li className='ml-12'><a href="#Feature">Features</a></li>
@@ -34,7 +34,7 @@ export default function Navbar() {
 
     {toggleNav ? (
         <div className='flex md:hidden bg-white shadow-md p-4 mt-12'>
-        <ul className='flex flex-col items-start justify-center gap-4 text-lg font-semibold'>
+        <ul className='flex flex-col items-start justify-center gap-4 text-lg '>
             <li className=''><a href="">Home</a></li>
             <li className=''><a href="#About">About</a></li>
             <li className=''><a href="#Feature">Features</a></li>

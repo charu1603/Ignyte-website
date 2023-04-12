@@ -16,7 +16,7 @@ export default function Hero() {
           lobortis.
         </p>
         <button className="bg-[#dc2626]  text-white font-bold py-2 px-4 rounded">
-          Learn More
+          <a href="">Join Discord</a>
         </button>
       </div>
       
