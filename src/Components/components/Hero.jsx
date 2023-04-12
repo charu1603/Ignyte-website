@@ -22,7 +22,7 @@ export default function Hero() {
       
       {/* Image */}
       <div className="w-full md:w-2/5 order-1 md:order-2 ">
-        <img src={pattern} alt="placeholder" className="w-full h-screen" />
+        <img src={pattern} alt="placeholder" className="w-full sm:h-screen h-3/5" />
       </div>
     </div>
 
