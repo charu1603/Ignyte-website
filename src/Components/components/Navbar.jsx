@@ -15,8 +15,8 @@ export default function Navbar() {
     <>
     <div className='flex w-screen items-center justify-between p-4 shadow-md h-12 text-black fixed top-0 z-50 backdrop-blur-xl bg-white/30'>
     <span className='text-2xl font-bold'>
-        {/* <img src={logo} alt="" className='w-20 h-16 ml-0 md:ml-12'/> */}
-        <h1 className='text-black text-3xl ml-0 md:ml-12'>IGNYTE</h1>
+        <img src={logo} alt="" className='w-20 h-12 mb-1 ml-0 md:ml-12'/>
+        {/* <h1 className='text-black text-3xl ml-0 md:ml-12'>IGNYTE</h1> */}
         </span>
     <span onClick={handleNavToggle} className='flex md:hidden text-2xl'>
         <GiHamburgerMenu/>
@@ -33,7 +33,7 @@ export default function Navbar() {
 
 
     {toggleNav ? (
-        <div className='flex md:hidden bg-white shadow-md p-4 mt-12'>
+        <div className='flex md:hidden bg-white shadow-md p-4 mt-12 z-40 fixed w-full '>
         <ul className='flex flex-col items-start justify-center gap-4 text-lg '>
             <li className=''><a href="">Home</a></li>
             <li className=''><a href="#About">About</a></li>

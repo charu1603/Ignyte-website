@@ -4,10 +4,11 @@ import snippet from '../images/snippet.jpg';
 
 export default function Opensource() {
   return (
-    <><div className="mx-auto mt-20 mb-24 mr-0 flex flex-col sm:flex-row "id='Open-source'>
+    <>
+    <div className="mx-auto mt-20 mb-24 mr-0 flex flex-col md:flex-row "id='Open-source'>
 
           {/* Content */}
-          <div className=" md:w-4/6 px-4 py-8 order-2 md:order-2  mt-8 sm:ml-0  md:ml-16 ">
+          <div className=" md:w-4/6 px-4 py-8 order-2 md:order-2  mt-8 sm:ml-0  md:ml-16 mx-6 ">
 
 
               <h1 className="text-5xl font-bold lg:text-7xl md:text-5xl sm:text-4xl mb-10 text-[#1e1b4b]  ">Dive deep into  the world of  open-source  </h1>
