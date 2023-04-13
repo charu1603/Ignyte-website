@@ -7,7 +7,7 @@ export default function Hero() {
   return (
    
 <div className="flex flex-col md:flex-row  justify-center items-center ">
-      {/* Content */}
+    
       <div className="w-full md:w-3/5 px-4 py-8 order-2 md:order-1  md:ml-20">
       <h1 className="text-5xl font-bold lg:text-7xl md:text-6xl  mb-10 text-[#1e1b4b] ">Ignyte <br></br> Community </h1>
         <p className="text-lg mb-4">
@@ -20,7 +20,7 @@ export default function Hero() {
         </button>
       </div>
       
-      {/* Image */}
+   
       <div className="w-full md:w-2/5 order-1 md:order-2 ">
         <img src={pattern} alt="placeholder" className="w-full md:h-screen h-3/5" />
       </div>
