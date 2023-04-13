@@ -6,7 +6,7 @@ export default function Opensource() {
   return (
     <><div className="mx-auto mt-20 mb-24 mr-0 flex flex-col sm:flex-row "id='Open-source'>
 
-          {/* Content */}
+         
           <div className=" md:w-4/6 px-4 py-8 order-2 md:order-2  mt-8 sm:ml-0  md:ml-16 ">
 
 
@@ -19,7 +19,7 @@ export default function Opensource() {
 
           </div>
 
-          {/* Image */}
+      
           <div className="w-full md:w-2/6 order-1 md:order-1 ">
 
 
