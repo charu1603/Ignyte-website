@@ -20,7 +20,7 @@ export default function Opensource() {
 
           </div>
 
-          {/* Image */}
+      
           <div className="w-full md:w-2/6 order-1 md:order-1 ">
 
 
