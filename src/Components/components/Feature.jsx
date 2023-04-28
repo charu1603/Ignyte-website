@@ -24,27 +24,27 @@ useEffect(() => {
    }})
 
    const el1 = image1.current;
-   gsap.fromTo(el1 , {delay:2, translateX:"-142px", opacity:0} , {delay:2, translateX:"0.75px" , opacity:1 , duration: 2 ,scrollTrigger:{
+   gsap.fromTo(el1 , {delay:1, translateX:"-142px", opacity:0} , {delay:1, translateX:"0.75px" , opacity:1 , duration: 2 ,scrollTrigger:{
     trigger: el1,
    }})
    const el2 = image2.current;
-   gsap.fromTo(el2 , {delay:2, translateX:"-142px", opacity:0} , {delay:2, translateX:"0.38px" , opacity:1 , duration: 2 ,scrollTrigger:{
+   gsap.fromTo(el2 , {delay:1, translateX:"-142px", opacity:0} , {delay:1, translateX:"0.38px" , opacity:1 , duration: 2 ,scrollTrigger:{
     trigger: el2,
    }})
    const el3 = image3.current;
-   gsap.fromTo(el3 , {delay:2, translateX:"-142px", opacity:0} , {delay:2, translateX:"0.55px" , opacity:1 , duration: 2 ,scrollTrigger:{
+   gsap.fromTo(el3 , {delay:1, translateX:"-142px", opacity:0} , {delay:1, translateX:"0.55px" , opacity:1 , duration: 2 ,scrollTrigger:{
     trigger: el3,
    }})
    const el4 = content1.current;
-   gsap.fromTo(el4 , {delay:3, opacity:0, translateX:"-10px"} , {delay:3, opacity:1,translateX:"1px", duration: 2, scrollTrigger:{
+   gsap.fromTo(el4 , {delay:2, opacity:0, translateX:"-10px"} , {delay:2, opacity:1,translateX:"1px", duration: 2, scrollTrigger:{
     trigger: el4,
    }})
    const el5 = content2.current;
-   gsap.fromTo(el5 , {delay:3, opacity:0, translateX:"-10px"} , {delay:3, opacity:1,translateX:"1px", duration: 2, scrollTrigger:{
+   gsap.fromTo(el5 , {delay:2, opacity:0, translateX:"-10px"} , {delay:2, opacity:1,translateX:"1px", duration: 2, scrollTrigger:{
     trigger: el5,
    }})
    const el6 = content3.current;
-   gsap.fromTo(el6 , {delay:3, opacity:0, translateX:"-10px"} , {delay:3, opacity:1,translateX:"1px", duration: 2, scrollTrigger:{
+   gsap.fromTo(el6 , {delay:2, opacity:0, translateX:"-10px"} , {delay:2, opacity:1,translateX:"1px", duration: 2, scrollTrigger:{
     trigger: el6,
    }})
 }, [ ] )
@@ -68,9 +68,9 @@ useEffect(() => {
 
                 
                 <div className='leading-loose' >
-                    <h3 className='text-4xl font-bold text-[#020842]'>Experience</h3>
-                    <h3 className='text-4xl font-bold mt-3 md:mt-0 mb-2 md:mb-4 text-[#020842]' ref={content1}>Meet Our Progress</h3>
-                    <p className=' text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni at laudantium velit ipsum perspiciatis provident similique quasi quaerat quos,Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni at laudantium velit ipsum perspiciatis provident similique quasi quaerat quos,</p>
+                    <h3 className='text-4xl font-bold text-[#020842]'>Collaborative</h3>
+                    <h3 className='text-4xl font-bold mt-3 md:mt-0 mb-2 md:mb-4 text-[#020842]' ref={content1}>Learning</h3>
+                    <p className=' text-sm'>Our platform fosters open communication where individuals can learn and grow along with utillilizing pool of opportunities exclusive for the hustelers.</p>
                 </div>
             </div>
 
@@ -84,9 +84,9 @@ useEffect(() => {
 
                 
                 <div className='leading-loose' >
-                    <h3 className='text-4xl font-bold text-[#020842]'>Experience</h3>
-                    <h3 className='text-4xl font-bold mb-4 text-[#020842]' ref={content2}>Meet Our Progress</h3>
-                    <p className=' text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni at laudantium velit ipsum perspiciatis provident similique quasi quaerat quos,Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni at laudantium velit ipsum perspiciatis provident similique quasi quaerat quos,</p>
+                    <h3 className='text-4xl font-bold text-[#020842]'>Build Connections </h3>
+                    <h3 className='text-4xl font-bold mb-4 text-[#020842]' ref={content2}>and Network</h3>
+                    <p className=' text-sm'>In today's world, networking with highly progressive members is an important skill but it becomes a piece of cake once you are a <b>#husteler</b></p>
                 </div>
             </div>
 
@@ -100,9 +100,9 @@ useEffect(() => {
 
                 
                 <div className='leading-loose' >
-                    <h3 className='text-4xl font-bold text-[#020842]'>Experience</h3>
-                    <h3 className='text-4xl font-bold mb-4 text-[#020842]' ref={content3}>Meet Our Progress</h3>
-                    <p className=' text-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni at laudantium velit ipsum perspiciatis provident similique quasi quaerat quos,Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas magni at laudantium velit ipsum perspiciatis provident similique quasi quaerat quos,</p>
+                    <h3 className='text-4xl font-bold text-[#020842]'>Peer</h3>
+                    <h3 className='text-4xl font-bold mb-4 text-[#020842]' ref={content3}>Learning</h3>
+                    <p className=' text-sm'>From scratch to top, we try to chart up personal skill growth by an interactive atmos, where we learn from people of different domains and backgrounds.</p>
                 </div>
             </div>
             

@@ -22,9 +22,7 @@ export default function Footer() {
               {/* <h1 className='text-3xl mt-8'>ASPER</h1> */}
             </div>
             <p className=" text-center md:text-left mx-auto md:mx-0 max-w-lg ">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Similique tenetur exercitationem, obcaecati reiciendis sit
-              dolorem.
+            Asper is society of creative and dedicated minds to foster a positive work environment with the aim of encouraging the enthusiasts to gain expertise and exposure in different domains of development.
             </p>
           </div>
 
@@ -94,7 +92,7 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="w-full absolute -bottom-7 sm:-bottom-9 md:-bottom-11 lg:-bottom-13">
+        <div className="w-full absolute -bottom-5 sm:-bottom-7 md:-bottom-9 lg:-bottom-12">
           <h1 className="w-full flex justify-center text-slate-700 mt-4 text-center text-[2.2rem] font-bold sm:text-[3.8rem] md:mt-0 md:text-[4.2rem] lg:text-[6rem] sm:font-extrabold ">
             IGNYTECOMMUNITY
           </h1>

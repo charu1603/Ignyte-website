@@ -9,11 +9,11 @@ import {BiBookContent} from 'react-icons/bi'
 export default function Card() {
   return (
     <>
-    <div className="sm:pb-20 bg-[#FCFAF2]" id='Card'>
+    <div className=" sm:py-20 bg-[#FCFAF2] py-12" id='Card'>
 
     
     <div className="flex justify-center ">
-    <h1 className="text-[#1e1b4b] text-4xl mt-4 md:text-7xl  w-fit font-bold  sm:mb-16 ">
+    <h1 className="text-[#1e1b4b] text-4xl md:text-7xl  w-fit font-bold  sm:mb-16 ">
         Our Domains
       </h1>
     </div>

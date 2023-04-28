@@ -14,8 +14,7 @@ export default function Opensource() {
               <h1 className="text-5xl font-bold lg:text-7xl md:text-5xl sm:text-4xl mb-10 text-[#1e1b4b]  ">Dive deep into  the world of  open-source  </h1>
 
               <p className="text-lg mb-4  "> 
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget massa ut libero interdum ultrices.
-                  Donec ut tellus vel purus faucibus fermentum id eget mi.Lorem ipsum dolor sit amet, consectetur adipiscing elit.m dolor sit amet, consectetur adipiscing elit.
+              We also function on the open source platform, and as part of our society, we have a separate open source block to spread the word about this.
               </p>
 
           </div>
@@ -27,24 +26,24 @@ export default function Opensource() {
               <div className="flex flex-row flex-wrap justify-center">
 
                   <div className="flex flex-col rounded-lg bg-[#1e1b4b] m-4 rotate-6">
-                      <div className="w-80 h-14 rounded-lg bg-[#1e1b4b]"><p className="text-center text-white my-2">LFX mentorship</p> </div>
+                      <div className="w-80 h-14 rounded-lg bg-[#1e1b4b]"><p className="text-center text-white my-2">GSoC</p> </div>
                      
                   </div>
                   <div className="flex flex-col rounded-lg  bg-[#dc2626] m-4 -rotate-6">
-                      <div className="w-80 h-14 rounded-lg  bg-[#dc2626]"><p className="text-center text-white my-2">LFX mentorship</p> </div>
+                      <div className="w-80 h-14 rounded-lg  bg-[#dc2626]"><p className="text-center text-white my-2">SSoC</p> </div>
                      
                   </div>
                   <div className="flex flex-col rounded-lg   bg-[#f97316] m-4 rotate-6">
-                      <div className="w-80 h-14 rounded-lg  bg-[#f97316]"><p className="text-center text-white my-2">LFX mentorship</p> </div>
+                      <div className="w-80 h-14 rounded-lg  bg-[#f97316]"><p className="text-center text-white my-2">GSSoC</p> </div>
                   
                   </div>
                   <div className="flex flex-col rounded-lg     bg-[#10b981] m-4 -rotate-6">
-                      <div className="w-80 h-14 rounded-lg      bg-[#10b981]"><p className="text-center text-white my-2">LFX mentorship</p> </div>
+                      <div className="w-80 h-14 rounded-lg      bg-[#10b981]"><p className="text-center text-white my-2">JWoC</p> </div>
                       
                   </div>
                 
                   <div className="flex flex-col rounded-lg  bg-[#fcd34d] m-4 rotate-6">
-                      <div className="w-80 h-14 rounded-lg  bg-[#fcd34d]"><p className="text-center text-white my-2">LFX mentorship</p> </div>
+                      <div className="w-80 h-14 rounded-lg  bg-[#fcd34d]"><p className="text-center text-white my-2">Hacktoberfest</p> </div>
                   
                   </div>
 
