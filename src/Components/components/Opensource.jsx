@@ -14,7 +14,7 @@ export default function Opensource() {
               <h1 className="text-5xl font-bold lg:text-7xl md:text-5xl sm:text-4xl mb-10 text-[#1e1b4b]  ">Dive deep into  the world of  open-source  </h1>
 
               <p className="text-lg mb-4  "> 
-              We also function on the open source platform, and as part of our society, we have a separate open source block to spread the word about this.
+              We also function on the open source platform, and as part of our society, we have a separate open source block to spread the word about this. Get ready to join forces with other like-minded individuals in a fun, supportive environment! Let's set the tech world ablaze together!
               </p>
 
           </div>

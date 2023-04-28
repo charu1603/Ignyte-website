@@ -41,7 +41,7 @@ export default function About() {
         </h1>
 
         <p className="text-xm  leading-relaxed mb-5 text-[#E7E5E5] ">
-        Here, you'll find a diverse group of enthusiasts sprouting from Team Asper who believe that sharing their expertise, exchanging ideas, and collaborating is the key to conquering the challenges of what's possible with technology. Think of this place as our own little corner of the internet to create synergies via community where we can nerd out, share info through memes, take sessions, and learn by connecting with students across schools and colleges.Whether you're a seasoned pro, just starting out, or somewhere in between, you'll fit right in with us. So come in, join the conversations, ask questions, share projects and feedback, and much more. Get ready to join forces with other like-minded individuals in a fun, supportive environment! Let's set the tech world ablaze together!
+        Here, you'll find a diverse group of enthusiasts sprouting from Team Asper who believe that sharing their expertise, exchanging ideas, and collaborating is the key to conquering the challenges of what's possible with technology. Think of this place as our own little corner of the internet to create synergies via community where we can nerd out, share info through memes, take sessions, and learn by connecting with students across schools and colleges.Whether you're a seasoned pro, just starting out, or somewhere in between, you'll fit right in with us. So come in, join the conversations, ask questions, share projects and feedback, and much more. 
         </p>
         <button className="bg-[#dc2626] text-[#E7E5E5] w-[200px] rounded-lg font-medium my-6 mx-auto md:mx-0 py-3 ">
           Learn more about ignyte
