@@ -10,18 +10,19 @@ import Feature from './Components/components/Feature';
 import Card from './Components/components/Card';
 import Opensource from './Components/components/Opensource';
 import Footer from './Components/components/Footer';
+import Workshop from './Components/components/Workshop';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
   <App />
   <Navbar />
-   <Hero />
-   <Card />
-   <About />
+  <Hero />
+  <Card />
+  <About />
   <Feature />
-   
-   <Opensource />
-   <Footer />
+  <Workshop/>
+  <Opensource />
+  <Footer />
 
   </React.StrictMode>,
 )

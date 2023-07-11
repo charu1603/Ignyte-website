@@ -18,7 +18,9 @@ export default function Footer() {
         <div className="grid grid-cols-1   md:grid-cols-4 md:ml-20 gap-x-20 gap-y-12 md:mr-20">
           <div className="md:mb-20  md:col-span-2 ">
             <div className="flex  text-center md:text-left justify-center md:justify-start">
+              <a href="https://theasperteam.in/">
               <img src={AsperLogo} alt="" className="h-28 text-center -mt-8" />
+              </a>
               {/* <h1 className='text-3xl mt-8'>ASPER</h1> */}
             </div>
             <p className=" text-center md:text-left mx-auto md:mx-0 max-w-lg ">
