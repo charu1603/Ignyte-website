@@ -5,7 +5,7 @@ import Feature3 from '../images/Feature3.png'
 export default function Workshop() {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-evenly items-center mx-auto w-5/6 bg-gradient-to-r from-cyan-300 to-blue-500 rounded-2xl p-4">
+      <div className="flex flex-col md:flex-row justify-evenly items-center mx-auto w-5/6 bg-[#1e1b4b] rounded-2xl p-4">
 
         <div className="flex flex-col justify-center">
 
