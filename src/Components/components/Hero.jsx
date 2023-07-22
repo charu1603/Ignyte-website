@@ -3,7 +3,7 @@ import React from 'react'
 import bg1 from "../images/bg1.png";
 import bg2 from "../images/bg2.png";
 
-import pollcat from "../images/pollcat.png";
+import pollcat from "../images/Pollcat.png";
 
 
 export default function Hero() {
