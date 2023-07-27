@@ -2,7 +2,6 @@ import React , {useState} from 'react'
 import logo from '../images/logo.png'
 import {GiHamburgerMenu} from 'react-icons/gi'
 
-
 export default function Navbar() {
 
   const [toggleNav , setToggleNav] = useState(false);
@@ -10,7 +9,7 @@ export default function Navbar() {
     setToggleNav(!toggleNav);
     console.log("Toggle nav =>>" , toggleNav);
   }
-
+  
   return (
     <>
     <div className='flex w-screen items-center justify-between p-4 shadow-md h-12 text-black fixed top-0 z-50 backdrop-blur-xl bg-white/30'>

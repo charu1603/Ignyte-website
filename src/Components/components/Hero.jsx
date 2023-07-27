@@ -22,9 +22,9 @@ export default function Hero() {
 <p className="text-xm  sm:leading-7  text-black "> We're a tight-knit community of <span className='sm:bg-[#f97316] sm:text-white  sm:p-1 sm:rounded-lg sm:mx-2 '>developers</span>, coders, and designers who are here to learn and teach with the power of <span className='sm:bg-[#10b981] sm:text-white sm:p-1 sm:rounded-lg sm:mx-2'>open-source</span>, with a mission to spread the fire of knowledge and empower each other without any bounds! 
   </p>
     
-      <button className="  bg-[#dc2626] text-white w-[120px]  font-medium my-6 mx-auto md:mx-4 py-3 ">
+     <a href="https://discord.gg/43gn4PsUhx" className="  bg-[#dc2626] text-white w-[120px]  font-medium my-6 mx-auto md:mx-4 py-3 text-center ">
       Get started 
-      </button>
+      </a>
      
     </div>
     <div className="w-full lg:w-1/2 order-1 lg:order-2 grid grid-cols-2 sm:none md:grid-row-3 lg:grid-row-3 pt-8  ">
