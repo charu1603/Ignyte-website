@@ -1,9 +1,8 @@
 import React from 'react'
 
-import bg1 from "../images/bg1.png";
-import bg2 from "../images/bg2.png";
-
-import pollcat from "../images/Pollcat.png";
+import bg1 from "../images/bg1.png"
+import bg2 from "../images/bg2.png"
+import Pollcat from "../images/Pollcat.png"
 
 
 export default function Hero() {
@@ -32,7 +31,7 @@ export default function Hero() {
         <img className=' h-full w-full ' src={bg1}></img>
       </div>
       <div className="bg-[#fff7ed] h-54 w-full ">
-        <img className=' h-full w-full  ' src={pollcat}></img>
+        <img className=' h-full w-full  ' src={Pollcat}></img>
       </div>
       
       <div className="bg-[#fff7ed] h-54 w-full hidden lg:block">
