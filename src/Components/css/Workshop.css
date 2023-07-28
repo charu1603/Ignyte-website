@@ -1,0 +1,32 @@
+@media (min-width:865px) and (max-width:965px) {
+    .session{
+        width:15rem;
+    }
+}
+
+@media (min-width:785px) and (max-width:865px) {
+    .session{
+        width:13rem;
+    }
+    .session_img{
+        height: 18rem !important;
+    }
+}
+
+@media (min-width:768px) and (max-width:785px) {
+    .session{
+        width:10rem;
+    }
+    .session_img{
+        height: 18rem !important;
+    }
+}
+
+@media (min-width:640px) and (max-width:650px) {
+    .session{
+        width:17rem;
+    }
+    .session_img{
+        height: 18rem !important;
+    }
+}
