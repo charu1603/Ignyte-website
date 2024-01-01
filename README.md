@@ -26,9 +26,9 @@
 
 **We're accepting PRs for our open and unassigned [issues🐛](https://github.com/charu1603/Ignyte-website/issues)**. Please check [CONTRIBUTING.md✨](https://github.com/Ignyte-community/Ignyte-Community-Website/CONTRIBUTING.md). We'd love your contributions! **Kindly follow the steps below to get started:** 
 
-**0.** Star [this](https://ignyte-website.vercel.app/) repository.
+**0.** Star [this](https://github.com/charu1603/Ignyte-website) repository.
 
-**1.** Fork [this](https://ignyte-website.vercel.app/) repository.
+**1.** Fork [this](https://github.com/charu1603/Ignyte-website) repository.
 
 **2.** Clone the forked repository.
 
