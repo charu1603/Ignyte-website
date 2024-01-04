@@ -35,7 +35,7 @@ export default function Hero() {
 
         <a
           href="https://discord.gg/43gn4PsUhx"
-          className="bg-[#dc2626] text-white w-[120px] font-medium my-6 mx-auto md:mx-4 py-3 text-center"
+          className="bg-[#dc2626] text-white w-[120px] font-medium my-6 mx-auto md:mx-4 py-3 text-center rounded-lg"
           style={{
             transition: "background-color 0.3s ease",
             textDecoration: "none",
