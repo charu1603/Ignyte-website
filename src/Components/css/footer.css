@@ -1,0 +1,24 @@
+#icon:hover{
+    transform: scale(1.2);
+    border:2px solid rgb(230, 55, 55);
+    transition: transform 0.3s ease-in-out;
+}
+
+#icon:hover + span {
+    color: #ebdc55; /* Change text color on hover */
+    transform: scale(1.1);
+    text-decoration: underline; /* Add an underline on hover */
+    transition: transform 0.3s ease,color 0.3s ease, text-decoration 0.3s ease;
+  }
+
+#ql:hover{
+    color: #ffcc00; /* Change text color on hover */
+    text-decoration: underline; /* Add an underline on hover */
+    transform: scale(1.2);
+    transition: transform 0.3s ease,color 0.3s ease, text-decoration 0.3s ease;
+}
+
+#para{
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
