@@ -23,7 +23,7 @@ export default function Navbar() {
     <div className='hidden md:flex items-center justify-end'>
     <ul className='flex items-center justify-end  mr-12 text-lg'>
             <li className='ml-12'><a href="">Home</a></li>
-            <li className='ml-12'><a href="#About">About</a></li>
+            <li className='ml-12'><a href="#ABOUT">About</a></li>
             <li className='ml-12'><a href="#Feature">Features</a></li>
             <li className='ml-12'><a href="#Open-source">Open-source</a></li>
     </ul>
@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className='flex md:hidden bg-white shadow-md p-4 mt-12 z-40 fixed w-full '>
         <ul className='flex flex-col items-start justify-center gap-4 text-lg '>
             <li className=''><a href="">Home</a></li>
-            <li className=''><a href="#About">About</a></li>
+            <li className=''><a href="#ABOUT">About</a></li>
             <li className=''><a href="#Feature">Features</a></li>
             <li className=''><a href="#Open-source">Open-source</a></li>
         </ul> 
