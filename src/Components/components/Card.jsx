@@ -21,30 +21,40 @@ export default function Card() {
       <div className="flex justify-center items-center w-full">
        
         <div className="w-auto gap-x-14 sm:gap-x-20 gap-y-12 grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
-
+      
           <div className="w-full flex flex-col items-center justify-center gap-y-3 cursor-pointer">
-          <CgWebsite className='h-32 w-32 sm:h-40 sm:w-40 text-[#1e1b4b]'/>
-          <h1 className="w-full text-center text-xl sm:text-3xl font-bold">Developers</h1>
+          <div className="group">
+          <CgWebsite className='h-32 w-32 sm:h-40 sm:w-40 text-[#1e1b4b] p-4 transform group-hover:scale-150 transition-transform duration-1000 ease-in-out'/>
+          <h1 className="w-full text-center text-xl sm:text-3xl font-bold  transform group-hover:scale-150 transition-transform duration-1000 ease-in-out">Developers</h1>
+          </div>
           </div>
 
           <div className="w-full flex flex-col items-center justify-center gap-y-3 cursor-pointer">
-          <SiMediafire className='h-32 w-32 sm:h-40 sm:w-40 text-[#1e1b4b]'/>
-          <h1 className="w-full text-center text-xl sm:text-3xl font-bold">Creators</h1>
+          <div className="group">
+          <SiMediafire className='h-32 w-32 sm:h-40 sm:w-40 text-[#1e1b4b] p-4 transform group-hover:scale-150 transition-transform duration-1000 ease-in-out'/>
+          <h1 className="w-full text-center text-xl sm:text-3xl font-bold transform group-hover:scale-150 transition-transform duration-1000 ease-in-out">Creators</h1>
+          </div>
           </div>
 
           <div className="w-full flex flex-col items-center justify-center gap-y-3 cursor-pointer">
-          <BsCode className='h-32 w-32 sm:h-40 sm:w-40 text-[#1e1b4b]'/>
-          <h1 className="w-full text-center text-xl sm:text-3xl font-bold">Coders</h1>
+          <div className="group">
+          <BsCode className='h-32 w-32 sm:h-40 sm:w-40 text-[#1e1b4b] group-hover:scale-150 transition-transform duration-1000 ease-in-out'/>
+          <h1 className="w-full text-center text-xl sm:text-3xl font-bold group-hover:scale-150 transition-transform duration-1000 ease-in-out">Coders</h1>
+          </div>
           </div>
 
           <div className="w-full flex flex-col items-center justify-center gap-y-3 cursor-pointer">
-          <BiBookContent className='h-32 w-32 sm:h-40 sm:w-40 text-[#1e1b4b]'/>
-          <h1 className="w-full text-center text-xl sm:text-3xl font-bold">Marketers</h1>
+          <div className="group">
+          <BiBookContent className='h-32 w-32 sm:h-40 sm:w-40 text-[#1e1b4b] p-3 group-hover:scale-150 transition-transform duration-1000 ease-in-out'/>
+          <h1 className="w-full text-center text-xl sm:text-3xl font-bold group-hover:scale-150 transition-transform duration-1000 ease-in-out">Marketers</h1>
+          </div>
           </div>
 
           <div className="w-full flex flex-col items-center justify-center gap-y-3 cursor-pointer">
-          <CgIfDesign className='h-32 w-32 sm:h-40 sm:w-40 text-[#1e1b4b]'/>
-          <h1 className="w-full text-center text-xl sm:text-3xl font-bold">Designers</h1>
+          <div className="group">
+          <CgIfDesign className='h-32 w-32 sm:h-40 sm:w-40 text-[#1e1b4b] group-hover:scale-150 transition-transform duration-1000 ease-in-out'/>
+          <h1 className="w-full text-center text-xl sm:text-3xl font-bold group-hover:scale-150 transition-transform duration-1000 ease-in-out">Designers</h1>
+          </div>
           </div>
 
           {/* <div className=" p-6 text-black mb-4 ">
