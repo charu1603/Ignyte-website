@@ -18,7 +18,7 @@ export default function Workshop() {
           </p>
 
           <div className="flex flex-col justify-start items-start">
-            <button className="bg-white ml-8 text-cyan-600 font-bold py-3 px-5 rounded-full hover:bg-sky-700 hover:scale-105 transition-transform duration-300 ease-in-out">
+            <button className="bg-white ml-8 text-cyan-600 font-bold py-3 px-5 rounded-full hover:bg-sky-700 hover:scale-105 hover:text-white transition-transform duration-300 ease-in-out">
               <a href="/">Browse Workshops</a>
             </button>
 
