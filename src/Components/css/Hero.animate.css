@@ -1,0 +1,136 @@
+  #container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    left: 65px;
+  }
+
+  /*hero img*/
+  .slide{
+    z-index: 2;
+    left: 50%;
+    width: 100%;
+    height: 350px;
+    object-fit: contain;
+    overflow-x: hidden;
+  } 
+
+  /*floating animation*/
+  @keyframes float {
+	0% {	
+		transform: translateY(0px);
+	}
+	50% {
+		transform: translateY(-12px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
+
+.floating-bg{
+    z-index: 1;
+    width:100vh;
+    height:100vh;
+    background-color:pink;
+    opacity:0.8;
+    position:relative;
+    top:-15px;
+    left:0;
+    border-radius:45%;
+    animation:rotate 32s infinite;
+  }
+  
+  .floating-bg::before{
+    content:"";
+    width:100%;
+    height:100%;
+    background:pink;
+    position:absolute;
+    top: 0;
+    left:0;
+    border-radius: 40%;
+    opacity:0.2;
+    animation: rotate 32s infinite;
+    
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  @media (max-width: 1023px) {
+    #container { 
+    position: relative;
+    flex-direction: row;
+    top: 25px;
+    left:-5px;
+    height: auto;
+    width: 104vw;
+    }
+
+  /*animation for mobile devices*/
+    .slide2{
+        transform: translateY(0);
+        animation: float 3s ease-in-out infinite;
+      }
+    
+      @keyframes float {
+        0% {	
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(-12px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }  
+
+    .slide3{
+        transform: translateY(0);
+        animation: float1 3s ease-in-out infinite;
+      }
+    
+      @keyframes float1 {
+        0% {	
+            transform: translateY(0px);
+        }
+        50% {
+            transform: translateY(8px);
+        }
+        100% {
+            transform: translateY(0px);
+        }
+    }  
+
+    .floating-bg {
+        position:relative;
+        margin-top: -590px;
+        height: 120vh;
+        width: 120vh;
+        left: 0;
+        top: -45px;
+    }
+  }
+  
+
+  @media (max-width: 430px) {
+    .floating-bg {
+        position:relative;
+        margin-top: -630px;
+        height: 120vh;
+        width: 120vh;
+        left: -400px;
+        top: -60px;
+    }
+  }

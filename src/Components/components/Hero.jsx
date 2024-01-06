@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../css/Hero.animate.css"
 import bg1 from "../images/bg1.png"
 import bg2 from "../images/bg2.png"
 import bg5 from "../images/bg5.png"
@@ -9,10 +9,10 @@ export default function Hero() {
   return (
   
     <div
-    className="flex flex-col lg:flex-row justify-center items-center  md:mt-0 bg-[#fff7ed] "
+    className="flex flex-col lg:flex-row justify-center items-center  md:mt-0 bg-[#fff7ed] overflow-hidden"
     id="About"
   >
-    <div className="w-full lg:w-1/2  pl-10 pr-10 order-2 lg:order-1  flex flex-col text-[#1e1b4b]  ">
+    <div className="w-full lg:w-1/2  pl-20 pr-10 pt-20 pb-20 order-2 lg:order-1  flex flex-col text-[#1e1b4b]  ">
       <h1 className="text-5xl font-bold lg:text-9xl md:text-7xl lg:mb-10 text-center sm:text-left ">
         {" "}
         ignyte{" "}
@@ -26,28 +26,27 @@ export default function Hero() {
       </a>
      
     </div>
-    <div className="w-full lg:w-1/2 order-1 lg:order-2 grid grid-cols-2 sm:none md:grid-row-3 lg:grid-row-3 pt-8  ">
-      <div className="bg-[#fff7ed] h-54 w-full ">
-        <img className=' h-full w-full ' src={bg1}></img>
+    <div className="w-full lg:w-1/2 order-1 lg:order-2 grid grid-cols-2 sm:grid-row-2 md:grid-row-3 lg:grid-row-3 pt-8 overflow-hidden">
+      <div id="container" >
+        <img className=' slide slide2' value="1" src={bg1}></img>
+        <img className=' slide slide3' value="-1" src={bg2}></img>
       </div>
-      <div className="bg-[#fff7ed] h-54 w-full ">
-        <img className=' h-full w-full  ' src={bg5}></img>
+      <div className=' floating-bg '></div>
+      
+        {/* <img className=' slide' value="2" src={bg1}></img>
+      </div>
+      <div className="bg-[#fff7ed] h-54 w-full">
+        <img className=' h-full w-full slide2' src={bg5}></img>
       </div>
       
       <div className="bg-[#fff7ed] h-54 w-full hidden lg:block">
       
       </div>
     
-
-      <div className=" bg-[#fff7ed] h-54 w-full hidden lg:block ">
-      <img className="  h-full w-full" src={bg2}></img> {" "}
-      </div>
+      <div className=" h-54 w-full hidden lg:block " id="conatiner2">
+      <img className="  h-full w-full slide" value="-2" src={bg2}></img> {" "}*/}
     </div>
-
-    
-  </div>
-
-  
+  </div> 
   )
 }
 

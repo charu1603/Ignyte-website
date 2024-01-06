@@ -9,5 +9,20 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- script to translate hero-images with mouse move -->
+    <script type="text/javascript">
+      document.addEventListener("mousemove", parallax);
+      function parallax(event) {
+        this.querySelectorAll(".slide").forEach((shift) => {
+          const position = shift.getAttribute("value");
+          const x = (window.innerWidth - event.pageX * position) / 90;
+          const y = (window.innerHeight - event.pageY * position) / 90;
+
+          shift.style.transform = `translateX(${x}px) translateY(${y}px)`;
+        });
+      }
+    </script>
+
   </body>
 </html>
