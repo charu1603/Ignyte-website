@@ -26,6 +26,7 @@ export default function Navbar() {
             <li className='ml-12'><a href="#ABOUT">About</a></li>
             <li className='ml-12'><a href="#Feature">Features</a></li>
             <li className='ml-12'><a href="#Open-source">Open-source</a></li>
+            <li className='ml-12'><a href="#Contact">Contact</a></li>
     </ul>
     </div>
     </div>
@@ -38,6 +39,7 @@ export default function Navbar() {
             <li className=''><a href="#ABOUT">About</a></li>
             <li className=''><a href="#Feature">Features</a></li>
             <li className=''><a href="#Open-source">Open-source</a></li>
+            <li className=''><a href="#Contact">Contact</a></li>
         </ul> 
         </div>
     )
