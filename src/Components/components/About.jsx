@@ -10,7 +10,7 @@ export default function About() {
   return (
     <div
       className="flex flex-col lg:flex-row justify-center items-center  md:mt-0 bg-[#1e1b4b] "
-      id="About"
+      id="ABOUT"
     >
       <div className="w-full lg:w-1/2  grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3">
         <div className="bg-teal-300 h-54 w-full">
