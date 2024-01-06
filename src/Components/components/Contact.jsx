@@ -6,7 +6,7 @@ import design3 from "../images/Feature3.png";
 
 const Contact = () => {
   return (
-    <div id="Contact" className="min-h-screen w-full flex items-center justify-center bg-gradient-to-r from-white via-white to-#97bdfc mx-2">
+    <div id="Contact" className="min-h-screen w-full flex items-center justify-center bg-gradient-to-r from-white via-white to-#97bdfc">
       <div className="bg-gray-200 rounded shadow-md max-w-5xl w-full md:flex-row flex flex-col py-8 md:py-20 px-4 md:px-20">
         <div className="flex lg:flex-col md:mr-8 mb-4 md:flex md:flex-col">
           <img src={design1} alt="Design1" className="w-28 h-28 " />
