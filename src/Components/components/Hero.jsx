@@ -8,7 +8,7 @@ export default function Hero() {
   return (
     <div
       className="flex flex-col lg:flex-row justify-center items-center  md:mt-0 bg-[#fff7ed] "
-      id="About"
+      id="Home"
     >
       <div className="w-full lg:w-1/2  pl-10 pr-10 order-2 lg:order-1  flex flex-col text-[#1e1b4b]  ">
         <h1 className="text-5xl font-bold lg:text-9xl md:text-7xl lg:mb-10 text-center sm:text-left ">
