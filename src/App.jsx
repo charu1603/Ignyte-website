@@ -7,6 +7,7 @@ import Workshop from "./Components/components/Workshop";
 import Opensource from "./Components/components/Opensource";
 import Footer from "./Components/components/Footer";
 import './App.css';
+import Contact from "./Components/components/Contact";
 
 function App() {
     return(
@@ -18,6 +19,7 @@ function App() {
             <Feature />
             <Workshop/>
             <Opensource />
+            <Contact />
             <Footer />
         </>
     )
