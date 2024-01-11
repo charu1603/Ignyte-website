@@ -6,7 +6,7 @@ import "../css/Workshop.css";
 export default function Workshop() {
   return (
     <>
-      <div className="flex flex-col md:flex-row justify-evenly items-center mx-auto w-11/12 bg-[#1e1b4b] rounded-2xl p-4">
+      <div id="Workshop" className="flex flex-col md:flex-row justify-evenly items-center mx-auto w-11/12 bg-[#1e1b4b] rounded-2xl p-4">
         <div className="flex flex-col justify-center">
           <h1 className="text-5xl font-bold pl-8 mt-0 sm:mt-5 text-white">
             Workshops
