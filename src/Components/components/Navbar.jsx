@@ -22,13 +22,13 @@ export default function Navbar() {
     </span>
     <div className='hidden md:flex items-center justify-end'>
       <ul className='flex items-center justify-end  mr-12 text-lg'>
-              <li className='ml-12'><a href="#Home">Home</a></li>
-              <li className='ml-12'><a href="#About">About Us</a></li>
-              <li className='ml-12'><a href="#Card">Our Domains</a></li>
-              <li className='ml-12'><a href="#Feature">Features</a></li>
-              <li className='ml-12'><a href="#Workshop">Workshop</a></li>
-              <li className='ml-12'><a href="#Open-source">Open-source</a></li>
-              <li className='ml-12'><a href="#Contact">Contact</a></li>
+              <li className='ml-4 lg:ml-12'><a href="#Home">Home</a></li>
+              <li className='ml-4 lg:ml-12'><a href="#About">About Us</a></li>
+              <li className='ml-4 lg:ml-12'><a href="#Card">Our Domains</a></li>
+              <li className='ml-4 lg:ml-12'><a href="#Feature">Features</a></li>
+              <li className='ml-4 lg:ml-12'><a href="#Workshop">Workshop</a></li>
+              <li className='ml-4 lg:ml-12'><a href="#Open-source">Open-source</a></li>
+              <li className='ml-4 lg:ml-12'><a href="#Contact">Contact</a></li>
       </ul>
     </div>
     </div>
