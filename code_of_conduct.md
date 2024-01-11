@@ -13,7 +13,7 @@ Accepting responsibility and apologising to those affected by our mistakes, and 
 Focusing on what is best not just for us as individuals, but for the overall community
 Examples of unacceptable behaviour include:
 
-The use of sexualised language or imagery, and sexual attention or advances
+The use of sexualized language or imagery, and sexual attention or advances
 Trolling, insulting or derogatory comments, and personal or political attacks
 Public or private harassment
 Publishing others' private information, such as a physical or email address, without their explicit permission
