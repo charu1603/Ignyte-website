@@ -10,6 +10,7 @@ import { IoMdCall } from "react-icons/io";
 import { AiOutlineMail } from "react-icons/ai";
 import AsperLogo from "../images/AsperLogoWhite.png";
 import ignyteLogo from "../images/logo.png";
+import '../css/footer.css';
 
 export default function Footer() {
   return (
@@ -23,8 +24,8 @@ export default function Footer() {
               </a>
               {/* <h1 className='text-3xl mt-8'>ASPER</h1> */}
             </div>
-            <p className=" text-center md:text-left mx-auto md:mx-0 max-w-lg ">
-            Asper is society of creative and dedicated minds to foster a positive work environment with the aim of encouraging the enthusiasts to gain expertise and exposure in different domains of development.
+            <p className=" text-center md:text-left mx-auto md:mx-0 max-w-lg " id="para">
+            Asper is a society of creative and dedicated minds to foster a positive work environment with the aim of encouraging the enthusiasts to gain expertise and exposure in different domains of development.
             </p>
           </div>
 
@@ -39,6 +40,7 @@ export default function Footer() {
                     href="https://instagram.com/theasperteam?igshid=YmMyMTA2M2Y="
                     target="blank"
                     className=" text-center bg-white text-black p-2 w-fit rounded-full  mr-2 h-8"
+                    id="icon"
                   >
                     <FaInstagram />
                   </a>
@@ -52,6 +54,8 @@ export default function Footer() {
                     href="https://www.linkedin.com/company/theasperteam/"
                     target="blank"
                     className="bg-white mt-4 text-center text-black p-2 w-fit rounded-full mr-2"
+                    id="icon"
+
                   >
                     <FaLinkedinIn />
                   </a>
@@ -65,6 +69,7 @@ export default function Footer() {
                     href="https://www.linkedin.com/company/theasperteam/"
                     target="blank"
                     className="bg-white mt-4 text-center text-black p-2 w-fit rounded-full mr-2"
+                    id="icon"
                   >
                     <FaDiscord />
                   </a>
@@ -80,15 +85,15 @@ export default function Footer() {
             </h2>
             <li className="leading-10 mt-4 ">
               <ul className="flex justify-center md:justify-start">
-                <a href="#About">About Us</a>
+                <a href="#About" id ="ql">About Us</a>
               </ul>
 
               <ul className="flex justify-center md:justify-start ">
-                <a href="#Feature">Features</a>
+                <a href="#Feature" id ="ql">Features</a>
               </ul>
 
               <ul className="flex justify-center md:justify-start">
-                <a href="#Card">Our Domain</a>
+                <a href="#Card" id ="ql">Our Domain</a>
               </ul>
             </li>
           </div>
