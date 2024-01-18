@@ -5,6 +5,10 @@ import bg2 from "../images/bg2.png";
 import bg5 from "../images/bg5.png";
 
 export default function Hero() {
+  const redirectToDiscord = () => {
+    window.location.href = "https://discord.com/invite/43gn4PsUhx";
+  };
+
   return (
     <div
       className="flex flex-col lg:flex-row justify-center items-center  md:mt-0 bg-[#fff7ed] "
@@ -46,8 +50,12 @@ export default function Hero() {
         >
           Get started
         </a> */}
+        
 
-<button className="relative inline-flex border-2 border-slate-600 items-center justify-center p-2  m-5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 hover:border-white rounded-lg group hover:bg-gradient-to-br w-[100px] from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800">Get Started</button>
+        
+
+
+<button className="relative inline-flex border-2 border-slate-600 items-center justify-center p-2  m-5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 hover:border-white rounded-lg group hover:bg-gradient-to-br w-[100px] from-pink-500 to-orange-400 group-hover:from-pink-500 group-hover:to-orange-400 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-pink-200 dark:focus:ring-pink-800" onClick={redirectToDiscord}>Get Started</button>
 <span class="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-md group-hover:bg-opacity-0"></span>
 
         
