@@ -78,19 +78,29 @@ export default function Footer() {
             <h2 className="text-2xl font-bold flex justify-center md:justify-start ">
               Quick Links
             </h2>
-            <li className="leading-10 mt-4 ">
-              <ul className="flex justify-center md:justify-start">
+            <ul className="leading-10 mt-4 ">
+              <li className="flex justify-center md:justify-start">
+                <a href="#Home">Home</a>
+              </li>
+              <li className="flex justify-center md:justify-start">
                 <a href="#About">About Us</a>
-              </ul>
-
-              <ul className="flex justify-center md:justify-start ">
+              </li>
+              <li className="flex justify-center md:justify-start">
+                <a href="#Card">Our Domains</a>
+              </li>
+              <li className="flex justify-center md:justify-start ">
                 <a href="#Feature">Features</a>
-              </ul>
-
-              <ul className="flex justify-center md:justify-start">
-                <a href="#Card">Our Domain</a>
-              </ul>
-            </li>
+              </li>
+              <li className="flex justify-center md:justify-start">
+                <a href="#Workshop">Workshop</a>
+              </li>
+              <li className="flex justify-center md:justify-start">
+                <a href="#Open-source">Open Source</a>
+              </li>
+              <li className="flex justify-center md:justify-start">
+                <a href="#Contact">Contact</a>
+              </li>
+            </ul>
           </div>
         </div>
 
