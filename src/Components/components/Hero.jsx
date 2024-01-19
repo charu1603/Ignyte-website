@@ -35,14 +35,7 @@ export default function Hero() {
 
         <a
           href="https://discord.gg/43gn4PsUhx"
-          className="bg-[#dc2626] text-white w-[120px] font-medium my-6 mx-auto md:mx-4 py-3 text-center rounded-lg"
-          style={{
-            transition: "background-color 0.3s ease",
-            textDecoration: "none",
-            backgroundColor: "#dc2626",
-          }}
-          onMouseOver={(e) => (e.target.style.backgroundColor = "#e53e3e")}
-          onMouseOut={(e) => (e.target.style.backgroundColor = "#dc2626")}
+          className="bg-[#dc2626] text-white w-[120px] ease-in duration-[0.3s] hover:bg-[#10b981] font-medium my-6 mx-auto md:mx-4 py-3 text-center rounded-lg"
         >
           Get started
         </a>
