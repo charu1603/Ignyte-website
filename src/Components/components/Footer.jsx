@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaYoutube,
   FaDiscord,
+  FaGithub,
 } from "react-icons/fa";
 import { TiLocation } from "react-icons/ti";
 import { IoMdCall } from "react-icons/io";
@@ -19,12 +20,19 @@ export default function Footer() {
           <div className="md:mb-20  md:col-span-2 ">
             <div className="flex  text-center md:text-left justify-center md:justify-start">
               <a href="https://theasperteam.in/">
-              <img src={AsperLogo} alt="" className="h-28 text-center -mt-8" />
+                <img
+                  src={AsperLogo}
+                  alt=""
+                  className="h-28 text-center -mt-8"
+                />
               </a>
               {/* <h1 className='text-3xl mt-8'>ASPER</h1> */}
             </div>
             <p className=" text-center md:text-left mx-auto md:mx-0 max-w-lg ">
-            Asper is society of creative and dedicated minds to foster a positive work environment with the aim of encouraging the enthusiasts to gain expertise and exposure in different domains of development.
+              Asper is society of creative and dedicated minds to foster a
+              positive work environment with the aim of encouraging the
+              enthusiasts to gain expertise and exposure in different domains of
+              development.
             </p>
           </div>
 
@@ -71,6 +79,19 @@ export default function Footer() {
                   <span className="mt-[0.65rem]">Discord</span>
                 </div>
               </ul>
+
+              <ul className="flex justify-center md:justify-start ">
+                <div className="flex ">
+                  <a
+                    href="https://github.com/charu1603/Ignyte-website"
+                    target="blank"
+                    className="bg-white mt-4 text-center text-black p-2 w-fit rounded-full mr-2"
+                  >
+                    <FaGithub />
+                  </a>
+                  <span className="mt-[0.65rem]">GitHub</span>
+                </div>
+              </ul>
             </li>
           </div>
 
@@ -109,7 +130,6 @@ export default function Footer() {
             IGNYTECOMMUNITY
           </h1>
         </div>
-
       </div>
     </>
   );
