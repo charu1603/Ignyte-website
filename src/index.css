@@ -8,5 +8,38 @@
       *{
         scroll-behavior: smooth !important;
       }
+      .navbar-item {
+        position: relative;
+        display: inline-block;
+        margin-left: 4rem;
+        color: inherit;
+        text-decoration: none;
+      }
+      
+      .navbar-item::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px; 
+        width: 0;
+        height: 2px;
+        background-color: #e50039;
+        transition: width 0.5s ease; 
+      }
+      
+      .navbar-item:hover::after {
+        width: 100%;
+        animation: lineAnimation 0.5s ease forwards; 
+      }
+      
+      @keyframes lineAnimation {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+      
 
       
