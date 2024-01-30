@@ -1,4 +1,7 @@
-import React from "react";
+import React , {useRef , useEffect} from 'react'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
+gsap.registerPlugin(ScrollTrigger);
 import {
   FaLinkedinIn,
   FaInstagram,
@@ -13,9 +16,17 @@ import AsperLogo from "../images/AsperLogoWhite.png";
 import ignyteLogo from "../images/logo.png";
 
 export default function Footer() {
+  const content1 = React.createRef(); 
+
+  useEffect(() => {
+      const el2 = content1.current;
+      gsap.fromTo(el2 , {delay:1, opacity:0, translateY:"10px"} , {delay:1, opacity:1,translateY:"1px", duration: 1, scrollTrigger:{
+        trigger: el2,
+      }})
+    }, [ ] )
   return (
     <>
-      <div className=" bg-slate-800 text-white mt-20 relative overflow-y-hidden pt-12 pb-12 md:pb-24 px-4 overflow-x-hidden">
+      <div className=" bg-slate-800 text-white mt-20 relative overflow-y-hidden pt-12 pb-12 md:pb-24 px-4 overflow-x-hidden" ref={content1}>
         <div className="grid grid-cols-1   md:grid-cols-4 md:ml-20 gap-x-20 gap-y-12 md:mr-20">
           <div className="md:mb-20  md:col-span-2 ">
             <div className="flex  text-center md:text-left justify-center md:justify-start">

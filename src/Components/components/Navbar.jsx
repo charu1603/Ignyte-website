@@ -1,8 +1,19 @@
-import React , {useState} from 'react'
+import React , {useState,useRef , useEffect} from 'react'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/all'
+gsap.registerPlugin(ScrollTrigger);
 import logo from '../images/logo.png'
 import {GiHamburgerMenu} from 'react-icons/gi'
 
 export default function Navbar() {
+  const content1 = React.createRef(); 
+
+  useEffect(() => {
+      const el2 = content1.current;
+      gsap.fromTo(el2 , {delay:1, opacity:0, translateY:"-10px"} , {delay:1, opacity:1,translateY:"1px", duration: 1, scrollTrigger:{
+        trigger: el2,
+      }})
+    }, [ ] )
 
   const [toggleNav , setToggleNav] = useState(false);
   const handleNavToggle = () => {
@@ -12,7 +23,7 @@ export default function Navbar() {
   
   return (
     <>
-    <div className='flex w-screen items-center justify-between p-4 py-8 shadow-md h-12 text-black fixed top-0 z-50 backdrop-blur-xl bg-white/30'>
+    <div className='flex w-screen items-center justify-between p-4 py-8 shadow-md h-12 text-black fixed top-0 z-50 backdrop-blur-xl bg-white/30' ref={content1}>
     <span className='text-2xl font-bold'>
         <img src={logo} alt="" className='w-20 h-12 mb-1 ml-0 md:ml-12'/>
         {/* <h1 className='text-black text-3xl ml-0 md:ml-12'>IGNYTE</h1> */}
