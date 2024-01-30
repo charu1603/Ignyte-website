@@ -61,7 +61,7 @@ export default function Footer() {
                   >
                     <FaInstagram />
                   </a>
-                  <span className="mt-[-5px]">Instagram</span>
+                 <a href="https://instagram.com/theasperteam?igshid=YmMyMTA2M2Y=" target="_blank"><span className="mt-[-5px]">Instagram</span></a> 
                 </div>
               </ul>
 
@@ -74,7 +74,7 @@ export default function Footer() {
                   >
                     <FaLinkedinIn />
                   </a>
-                  <span className="mt-[0.65rem]">Linkedin</span>
+                  <a href="https://www.linkedin.com/company/theasperteam/" target="blank"><span className="mt-[0.65rem]">Linkedin</span></a>
                 </div>
               </ul>
 
@@ -87,7 +87,7 @@ export default function Footer() {
                   >
                     <FaDiscord />
                   </a>
-                  <span className="mt-[0.65rem]">Discord</span>
+                  <a href="https://www.linkedin.com/company/theasperteam/" target="blank"><span className="mt-[0.65rem]">Discord</span></a>
                 </div>
               </ul>
 
@@ -100,7 +100,7 @@ export default function Footer() {
                   >
                     <FaGithub />
                   </a>
-                  <span className="mt-[0.65rem]">GitHub</span>
+                  <a href="https://github.com/charu1603/Ignyte-website" target="blank"><span className="mt-[0.65rem]">GitHub</span></a>
                 </div>
               </ul>
             </li>
