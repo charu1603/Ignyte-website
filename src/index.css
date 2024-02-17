@@ -3,8 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
       *{
         scroll-behavior: smooth !important;
       }
