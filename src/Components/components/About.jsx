@@ -8,6 +8,8 @@ import design3 from "../images/Feature3.png";
 import design2 from "../images/Feature2.png";
 import design1 from "../images/Feature1.png";
 import os from "../images/os.png";
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 
 export default function About() {
   const heading = React.createRef(); 
@@ -106,8 +108,9 @@ export default function About() {
           with us. So come in, join the conversations, ask questions, share
           projects and feedback, and much more.
         </p>
-        <button className="bg-[#dc2626] text-white w-[200px] ease-in duration-[0.3s] hover:bg-[#10b981] font-medium my-6 mx-auto md:mx-4 py-3 text-center rounded-lg" ref={btn}>
-          Learn more
+        <button className="bg-[#dc2626] inline-flex justify-center items-center text-white w-[200px] ease-in duration-[0.3s] hover:bg-[#10b981] font-medium my-6 mx-auto md:mx-4 py-3 text-center rounded-lg" ref={btn}>
+          Learn more <span><FaLongArrowAltRight className='lg:mt-1 ml-2 mt-1' /></span> 
+
         </button>
       </div>
     </div>
