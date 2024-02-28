@@ -5,6 +5,8 @@ gsap.registerPlugin(ScrollTrigger);
 import bg1 from "../images/bg1.png";
 import bg2 from "../images/bg2.png";
 import bg5 from "../images/bg5.png";
+import { MdStart } from "react-icons/md";
+
 
 export default function Hero() {
   const heading = React.createRef(); 
@@ -77,9 +79,10 @@ export default function Hero() {
 
         <a
           href="https://discord.gg/43gn4PsUhx"
-          className="bg-[#dc2626] text-white w-[120px] ease-in duration-[0.3s] hover:bg-[#10b981] font-medium my-6 mx-auto md:mx-4 py-3 text-center rounded-lg" ref={content3}
+          className="bg-[#dc2626] inline-flex justify-center items-center gap-x-2 text-white w-[140px] ease-in duration-[0.3s] hover:bg-[#10b981] font-medium my-6 mx-auto md:mx-4 py-3 text-center rounded-lg" ref={content3}
         >
-          Get started
+          Get started <MdStart />
+
         </a>
       </div>
       <div className="w-full lg:w-1/2 order-1 lg:order-2 grid grid-cols-2 sm:none md:grid-row-3 lg:grid-row-3 pt-8  ">
