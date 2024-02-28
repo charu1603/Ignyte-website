@@ -7,7 +7,7 @@
         scroll-behavior: smooth !important;
       }
 
-      /* This code is for adding line hover animation */
+      /* This code is for adding line hover animation for nav elements */
       .navbar-item {
         position: relative;
         display: inline-block;
