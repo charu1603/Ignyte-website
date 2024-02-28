@@ -3,6 +3,8 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/all'
 gsap.registerPlugin(ScrollTrigger);
 import snippet from '../images/snippet.jpg';
+import { FaLongArrowAltRight } from "react-icons/fa";
+
 
 export default function Opensource() {
    
@@ -63,7 +65,10 @@ export default function Opensource() {
               <p className="text-lg mb-4 " ref={text}> 
               We also function on the open source platform, and as part of our society, we have a separate open source block to spread the word about this. Get ready to join forces with other like-minded individuals in a fun, supportive environment! Let's set the tech world ablaze together!
               </p>
+              <button className="bg-[#dc2626] inline-flex justify-center items-center text-white w-[200px] ease-in duration-[0.3s] hover:bg-[#10b981] font-medium my-6 mx-auto md:mx-4 py-3 text-center rounded-lg">
+          Explore more <span><FaLongArrowAltRight className='lg:mt-1 ml-2 mt-1' /></span> 
 
+        </button>
           </div>
 
       
