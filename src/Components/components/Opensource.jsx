@@ -67,6 +67,7 @@ export default function Opensource() {
               </p>
               <button className="bg-[#dc2626] inline-flex justify-center items-center text-white w-[200px] ease-in duration-[0.3s] hover:bg-[#10b981] font-medium my-6 mx-auto md:mx-4 py-3 text-center rounded-lg">
           Explore more <span><FaLongArrowAltRight className='lg:mt-1 ml-2 mt-1' /></span> 
+          // Button added
 
         </button>
           </div>
